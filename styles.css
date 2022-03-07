@@ -123,8 +123,34 @@ img {
   box-sizing: border-box;
   border: 5px solid #3882f6;
   border-radius: 15%;
-  min-width: 256px;
-  min-height: 256px;
+  min-width: 128px;
+  min-height: 128px;
+}
+
+.thirdcontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+}
+
+.thirdcontainer .quotecontainer {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  width: 70%;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.thirdcontainer .quotecontainer .quote {
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.thirdcontainer .quotecontainer .quoteauthor {
+  font-size: 32px;
+  color: grey;
 }
 
 
