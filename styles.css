@@ -2,6 +2,7 @@ html {
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -54,6 +55,13 @@ img {
   font-size: 18px;
 }
 
+.toplinks div a:hover{
+  background-color: #3882f6;
+  border: 3px solid white;
+  border-radius: 2px;
+
+}
+
 .content {
   display: flex;
   width: 70%;
@@ -97,7 +105,7 @@ img {
 }
 
 .secondcontainer .title {
-  margin: 20px;
+  margin: 40px;
   font-size: 36px;
   color: #1f2937;
   font-weight: 800;
@@ -108,6 +116,7 @@ img {
   display: flex;
   gap: 20px;
   width: 70%;
+  margin: 20px;
   justify-content: space-around;
 }
 .secondcontainer .imageboxes .imagebox {
@@ -130,7 +139,7 @@ img {
 .thirdcontainer {
   display: flex;
   flex-direction: column;
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
 }
 
 .thirdcontainer .quotecontainer {
@@ -153,4 +162,63 @@ img {
   color: grey;
 }
 
+.fourthcontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
 
+.fourthcontainer .bottombox {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  width: 60%;
+  margin: 100px;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+
+.fourthcontainer .bottombox .text {
+  text-align: center;
+  font-size: 24px;
+  width: 70%;
+}
+
+.fourthcontainer .bottombox .text p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.fourthcontainer .bottombox .buttoncontainer {
+  text-align: center;
+  margin: auto;
+  width: 30%;
+}
+.fourthcontainer .bottombox button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border: 2px solid white;
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+  color: white;
+  font-size: 24px;
+}
+
+.fourthcontainer .bottombox button:hover {
+  background-color: #1f2937;
+}
+
+.footer{
+  background-color: #1f2937;
+  height: 80px;
+}
+
+.footer .copyright{
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-family: roboto;
+}
